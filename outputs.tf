@@ -4,7 +4,7 @@
 
 #Netkowing Outputs ---------
 output "public subnets" {
-  value = "${join(",", module.networking.public_subnets)1}"
+  value = "${join(",", module.networking.public_subnets)}"
 }
 
 output "Subnet IPs" {
