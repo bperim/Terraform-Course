@@ -7,6 +7,6 @@ public_cidrs = [
     ]
 accessip = "0.0.0.0/0"
 key_name = "tf_key"
-public_key_path = "C:\Users\Tux/.ssh/id_rsa.pub"
+public_key_path = "" 
 server_instance_type = "t2.mciro"
 instance_count = 2
